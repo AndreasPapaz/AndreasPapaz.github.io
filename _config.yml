@@ -2,3 +2,5 @@ title: Code Play Ground
 description: A place for me to continue to learn and journal.
 show_downloads: true
 google_analytics:
+
+theme: jekyll-theme-tactile
