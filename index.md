@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-
-###[](#07-31-17)07-31-17
+### [](#header-3)Header 3
 
 **Caesar's Cipher***
 
