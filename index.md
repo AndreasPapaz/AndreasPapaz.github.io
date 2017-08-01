@@ -23,10 +23,10 @@ the challenge involves creating a function that will replace a letter with the *
 
 to better illustrate...
 
-| **65** | **66** | **67** | **68** | **69** | **70** | **71** | **72** | **73** | **74** | **75** | **76** | **77** |
-|   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L    |   M    |
-|   N    |   O    |   P    |   Q    |   R    |   S    |   T    |   U    |   V    |   W    |   X    |   Y    |   Z    |
-| **78** | **79** | **80** | **81** | **82** | **83** | **84** | **85** | **86** | **87** | **88** | **89** | **90** |
+|**65**| **66**|**67**|**68**|**69**|**70**|**71**|**72**|**73**|**74**|**75**|**76**|**77**|
+|  A   |   B   |  C   |  D   |  E   |  F   |  G   |  H   |  I   |  J   |  K   |  L   |  M   |
+|  N   |   O   |  P   |  Q   |  R   |  S   |  T   |  U   |  V   |  W   |  X   |  Y   |  Z   |
+|**78**|**79** |**80**|**81**|**82**|**83**|**84**|**85**|**86**|**87**|**88**|**89**|**90**|
 
 let's say you land on code 80 and you add ROT13 to it. We get 93, this is a code outside the range and to convert to ROT 83 we must subtract from 80. 80 - 13 we get 67, C. 
 
