@@ -26,12 +26,10 @@ the tricky part of this problem is how you will determine if the character must 
 what i used for this is the _.indexOf_ method. If the result is -1 then this character does not exist in the array and we must delete it.
 
 ```js
-var outerIndex = outer.length - 1;// set the max index which will go through each of the items in the array.
-
+var outerIndex = outer.length - 1;
+// set the max index which will go through each of the items in the array.
     while (inner.length > 0 && outer.length > 0 && outerIndex >= 0) {
-
     	//the array lengths must be greater than 0 because if it is not then we have no array to compare.
-
         let innerIndex = inner.indexOf(outer[outerIndex]);
         if (innerIndex !== -1) { // the char does not exist
             outer.splice(outerIndex, 1);
@@ -40,7 +38,6 @@ var outerIndex = outer.length - 1;// set the max index which will go through eac
         }
         outerIndex--;
     }
-
     console.log(inner.length + outer.length);
 ```
 
@@ -55,7 +52,7 @@ best regards,
 
 * * *
 
-=======
+
 # [](#header-1)Caesar's Cipher
 
 
