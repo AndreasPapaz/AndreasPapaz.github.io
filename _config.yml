@@ -1,5 +1,5 @@
-title: Andreas Papazafeiropoulos
-description: my code playground, where i will log my learnings.
-show_downloads: false
-google_analytics: UA-103571125-1
-# theme: jekyll-theme-slate
+title: Slate theme
+description: Slate is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-slate
