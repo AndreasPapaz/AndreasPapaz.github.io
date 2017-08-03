@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<<<<<<< HEAD
 
 ### [](#header-3)Making Anagrams, a String Exercise
 
@@ -43,7 +42,7 @@ var outerIndex = outer.length - 1;// set the max index which will go through eac
     }
 
     console.log(inner.length + outer.length);
-* * *
+```
 
 quick note on _splice()_ vs _slice()_
 
@@ -54,12 +53,11 @@ quick note on _splice()_ vs _slice()_
 best regards,
 -Andreas
 
-
-### [](#header-3)Caesar's Cipher
+* * *
 
 =======
 # [](#header-1)Caesar's Cipher
->>>>>>> 78ab7e3ef4b935316998ffe007da9538615b34ad
+
 
 >It is better to create than to learn. Creating is the essence of life.
 >
@@ -81,17 +79,12 @@ the challenge involves creating a function that will replace a letter with the *
 
 to better illustrate...
 
-<<<<<<< HEAD
-| **65** | **66** | **67** | **68** | **69** | **70** | **71** | **72** | **73** | **74** | **75** | **76** | **77** |
-|   A    |   B    |   C    |   D    |   E    |   F    |   G    |   H    |   I    |   J    |   K    |   L    |   M    |
-|   N    |   O    |   P    |   Q    |   R    |   S    |   T    |   U    |   V    |   W    |   X    |   Y    |   Z    |
-| **78** | **79** | **80** | **81** | **82** | **83** | **84** | **85** | **86** | **87** | **88** | **89** | **90** |
-=======
+
 |**65**| **66**|**67**|**68**|**69**|**70**|**71**|**72**|**73**|**74**|**75**|**76**|**77**|
 |  A   |   B   |  C   |  D   |  E   |  F   |  G   |  H   |  I   |  J   |  K   |  L   |  M   |
 |  N   |   O   |  P   |  Q   |  R   |  S   |  T   |  U   |  V   |  W   |  X   |  Y   |  Z   |
 |**78**|**79** |**80**|**81**|**82**|**83**|**84**|**85**|**86**|**87**|**88**|**89**|**90**|
->>>>>>> 78ab7e3ef4b935316998ffe007da9538615b34ad
+
 
 let's say you land on code 80 and you add ROT13 to it. We get 93, this is a code outside the range and to convert to ROT 83 we must subtract from 80. 80 - 13 we get 67, C. 
 
