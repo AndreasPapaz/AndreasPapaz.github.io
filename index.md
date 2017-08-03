@@ -47,7 +47,6 @@ quick note on _splice()_ vs _slice()_
 **slice()** will temporarily store the selected item.
 
 
-best regards,
 -Andreas
 
 * * *
@@ -83,7 +82,7 @@ to better illustrate...
 |**78**|**79** |**80**|**81**|**82**|**83**|**84**|**85**|**86**|**87**|**88**|**89**|**90**|
 
 
-let's say you land on code 80 and you add ROT13 to it. We get 93, this is a code outside the range and to convert to ROT 83 we must subtract from 80. 80 - 13 we get 67, C. 
+let's say you land on code 80 and you add ROT13 to it. We get 93, this is a code outside the range and to convert to ROT 83 we must subtract from 80. 80 - 13 we get 67, C.
 
 the solution to this is really 2 parts. Gathering the cipher code numbers and converting them properly in their appropriate range.
 
