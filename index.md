@@ -24,7 +24,7 @@ function foo(a) {
   a = 2;
 }
 foo(a);
-console.log(a): //this will print 1;
+console.log(a); //this will print 1;
 ```
 
 This is a primate type. JavaScript will pass in a copy of **a** and not **a** it self. It will only change the value of **a** inside the function scope of foo();
