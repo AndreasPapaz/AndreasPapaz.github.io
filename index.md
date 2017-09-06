@@ -2,6 +2,50 @@
 layout: default
 ---
 
+### [](#header-3)JavaScript, pass by VALUE v.s. pass by REFERENCE
+
+Does JavaScript pass parameters by value or by reference?
+
+first thing first...
+```js
+var a;
+
+function foo(a) {
+
+}
+
+```
+Quick answer: Primative types (Strings, Numbers, Booleans) are passed by value and Objects are passed by reference.
+
+```js
+var a = 1;
+
+function foo(a) {
+  a = 2;
+}
+foo(a);
+console.log(a): //this will print 1;
+```
+
+This is a primative type. JavaScript will pass in a copy of **a** and not **a** it self. It will only change the value of **a** inside the function scope of foo();
+
+```js
+var a = {};
+
+function foo(a) {
+  a.moo = false;
+}
+
+foo(a);
+console.log(a) // Object {moo: false};
+```
+
+The object is being passed through the function and will change the value. You can only change the properties of **a** and not what it points to.
+
+-Andreas
+
+* * *
+
 ### [](#header-3)Making Anagrams, a String Exercise
 
 The Problem
