@@ -15,7 +15,7 @@ function foo(a) {
 }
 
 ```
-Quick answer: Primative types (Strings, Numbers, Booleans) are passed by value and Objects are passed by reference.
+Quick answer: Primitive types (Strings, Numbers, Booleans) are passed by value and Objects are passed by reference.
 
 ```js
 var a = 1;
@@ -27,7 +27,7 @@ foo(a);
 console.log(a): //this will print 1;
 ```
 
-This is a primative type. JavaScript will pass in a copy of **a** and not **a** it self. It will only change the value of **a** inside the function scope of foo();
+This is a primate type. JavaScript will pass in a copy of **a** and not **a** it self. It will only change the value of **a** inside the function scope of foo();
 
 ```js
 var a = {};
