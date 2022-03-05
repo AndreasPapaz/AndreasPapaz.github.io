@@ -14,7 +14,7 @@ function foo(a) {
 
 }
 
-``
+```
 Quick answer: Primitive types (Strings, Numbers, Booleans) are passed by value and Objects are passed by reference.
 
 ```js
