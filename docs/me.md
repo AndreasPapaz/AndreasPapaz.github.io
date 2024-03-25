@@ -1,9 +1,8 @@
 ---
 layout: default 
-title: About Me 
 permalink: /about/me/
 ---
 
-#About Me
+# About Me
 
 My name is Andreas Papazafeiropoulos
