@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://AndreasPapaz.github.io/AndreasPapaz.github.io//sitemap.xml
+Sitemap: https://AndreasPapaz.github.io/sitemap.xml
