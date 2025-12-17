@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "books-the-godfather",
+            },{id: "post-java-pass-by-reference-vs-pass-by-vlaue",
+        
+          title: "Java Pass by Reference vs Pass by Vlaue",
+        
+        description: "Coming soon",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/JavaReference/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
