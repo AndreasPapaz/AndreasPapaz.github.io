@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Rough Shot # blog_name will be displayed in your blog page
+blog_name: Life and Learnings from a Semi Self Taught D(ad)ev # blog_name will be displayed in your blog page
 blog_description: A tech blog for the academically degenerate 
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -257,7 +257,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+# display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
