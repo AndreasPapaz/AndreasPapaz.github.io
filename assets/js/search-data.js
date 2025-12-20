@@ -58,9 +58,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-java-pass-by-reference-vs-pass-by-vlaue",
+            },{id: "post-java-pass-by-reference-vs-pass-by-value",
         
-          title: "Java Pass by Reference vs Pass by Vlaue",
+          title: "Java Pass by Reference vs Pass by Value",
         
         description: "Coming soon",
         section: "Posts",
