@@ -58,7 +58,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-java-pass-by-reference-vs-pass-by-value",
+            },{id: "post-java-response-validation-from-spring-boot",
+        
+          title: "Java Response Validation from Spring Boot",
+        
+        description: "Coming soon",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/plotly/";
+          
+        },
+      },{id: "post-java-pass-by-reference-vs-pass-by-value",
+        
+          title: "Java Pass by Reference vs Pass by Value",
+        
+        description: "Coming soon",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/smallLLM/";
+          
+        },
+      },{id: "post-java-pass-by-reference-vs-pass-by-value",
         
           title: "Java Pass by Reference vs Pass by Value",
         
