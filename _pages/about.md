@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>See my Work</a>. You just have to have High Thumos in life
+subtitle: <a href='#'>See my Work</a>. 
 
 profile:
   align: right
